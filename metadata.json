@@ -1,0 +1,6 @@
+{
+  "name": "AgentField",
+  "description": "Open infrastructure for autonomous software to deploy, scale, observe, and verify AI agents.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

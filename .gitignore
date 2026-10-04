@@ -1,46 +1,24 @@
-# General
-.DS_Store
+# Logs
+logs
 *.log
-*.tmp
-*.swp
-*.swo
-test-reports/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Go
-bin/
-dist/
-**/dist/
-coverage.out
-*.test
+node_modules
+dist
+dist-ssr
+*.local
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-.mypy_cache/
-.pytest_cache/
-*.egg-info/
-build/
-dist/
-
-# Node / Frontend
-node_modules/
-.pnpm-store/
-.yarn/
-.parcel-cache/
-*.tsbuildinfo
-**/.ui-build-hash
-
-# IDE / Tooling
-.idea/
-.vscode/
-*.code-workspace
-
-# Generated assets
-coverage/
-reports/
-*.coverage
-*.lcov
-
-# Docker
-.docker/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
